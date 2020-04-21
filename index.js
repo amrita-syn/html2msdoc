@@ -1,4 +1,4 @@
-const html2word = (html, options = {}) => {
+module.exports.html2msdoc = (html, options = {}) => {
   const defaultOptions = {
     filename: "document.docx",
     margins: {
@@ -107,11 +107,7 @@ const html2word = (html, options = {}) => {
   const fileDownload = document.createElement("a");
   document.body.appendChild(fileDownload);
   fileDownload.href = source;
-  fileDownload.download = "document.doc";
+  fileDownload.download = filename;
   fileDownload.click();
   document.body.removeChild(fileDownload);
 };
-
-
-
-export default { html2word };
