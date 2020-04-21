@@ -102,10 +102,9 @@ const html2word = (html, options = {}) => {
       </div>
     </body>
   </html>>`;
-  console.log(wordXML);
-  var source =
+  const source =
     "data:application/vnd.ms-word;charset=utf-8," + encodeURIComponent(wordXML);
-  var fileDownload = document.createElement("a");
+  const fileDownload = document.createElement("a");
   document.body.appendChild(fileDownload);
   fileDownload.href = source;
   fileDownload.download = "document.doc";
