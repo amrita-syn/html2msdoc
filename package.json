@@ -1,0 +1,8 @@
+{
+  "name": "html2word",
+  "version": "1.0.0",
+  "description": "A package to convert html markup to word.",
+  "main": "index.js",
+  "author": "y.amrita@gmail.com",
+  "license": "MIT"
+}
