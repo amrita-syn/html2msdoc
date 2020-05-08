@@ -4,5 +4,8 @@
   "description": "A package to convert html markup to word.",
   "main": "index.js",
   "author": "Amrita Y",
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    "PrivateOmega <privateOmega@protonmail.com> (https://github.com/privateOmega)"
+  ]
 }
